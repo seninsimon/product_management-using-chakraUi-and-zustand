@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server.js"
   },
+  "type" : "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/seninsimon/product_management-using-chakraUi-and-zustand.git"
@@ -16,5 +17,13 @@
     "url": "https://github.com/seninsimon/product_management-using-chakraUi-and-zustand/issues"
   },
   "homepage": "https://github.com/seninsimon/product_management-using-chakraUi-and-zustand#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
 }
